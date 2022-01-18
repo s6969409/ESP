@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.ledmatrix">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".deviceAdapter.DeviceListActivity" />
+        <activity android:name=".local.ApActivity" />
+        <activity android:name=".deviceAdapter.MainProgramActivity" />
+        <activity android:name=".deviceAdapter.ProgramBlockEditActivity" />
+        <activity android:name=".deviceAdapter.ProgramActivity" />
+        <activity android:name=".deviceAdapter.LedMatrixActivity" />
+        <activity android:name=".local.AppSettingActivity" />
+        <activity android:name=".FileEditActivity" />
+        <activity android:name=".DeviceFileEditActivity" />
+        <activity android:name=".DeviceFileEditActivity2" />
+        <activity android:name=".DeviceTempActivity" />
+        <activity android:name=".OnLineListActivity" />
+        <activity android:name=".CustomerActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
