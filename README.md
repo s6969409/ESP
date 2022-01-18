@@ -8,5 +8,5 @@ At Android App, user can set LED's R, G, B color,and simple programs that can le
 
 https://www.youtube.com/watch?v=us3WUpKb7rg
 
-You can use NodeMCU's GPIO connected relay module to control device that you want.
+You can use NodeMCU's GPIO connected relay module to control device that you want through this android App.
 
